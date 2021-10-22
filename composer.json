@@ -1,0 +1,24 @@
+{
+    "name": "ifresh/fakkel",
+    "description": "A package to easily send (logging) data to an external server",
+    "authors": [
+        {
+            "name": "Maurits van Leeuwen",
+            "email": "m.vanleeuwen@ifresh.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ifresh\\Fakkel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ifresh\\Fakkel\\FakkelServiceProvider"
+            ]
+        }
+    }
+}
